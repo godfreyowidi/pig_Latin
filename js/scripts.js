@@ -1,4 +1,7 @@
-// for -> orfay
-// phone -> onephay
-// quick => ickquay
-// queen => eenquay
+function pigLatin(word) {
+  const vowels = ["a", "e", "i", "o", "u"];
+  if (vowels.includes(word[0])) {
+   return word + "way";
+  }
+  
+}
